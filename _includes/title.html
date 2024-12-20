@@ -1,7 +1,33 @@
-<div class="header-banner">
-  <img src="{{ page.header-image }}" alt="">
-  <a class="header-title" href="{{ site.url }}">
-    <b style="color:#222; font-size:32pt; font-weight:bold;">Diego Sotillo-Ramos</b> <br>
-    <span style="color:#444; font-size:18pt;">PhD Student at MPIA </span>
-  </a>
-</div>
+<html>
+<head>
+  <style>
+    .header-banner {
+      position: relative;
+      background-image: url('{{ page.header-image }}');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 200px;
+    }
+    .header-title {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-banner">
+    <img src="{{ page.header-image }}" alt="background image" style="display: none;">
+    <a class="header-title" href="{{ site.url }}">
+      <b style="color:#222; font-size:32pt; font-weight:bold;">Diego Sotillo-Ramos</b> <br>
+      <span style="color:#444; font-size:18pt;">PhD Student at MPIA </span>
+    </a>
+  </div>
+</body>
+</html>
+
