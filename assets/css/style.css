@@ -60,9 +60,6 @@ nav li a:hover {
   -ms-flex: 1;
   flex: 1;
 
-  border-radius: 15px;
-  overflow: hidden;
-
   width: 100%;
   position: relative;
 
@@ -76,8 +73,6 @@ nav li a:hover {
   opacity: 1.0;
   object-fit: cover;
   transition: 0.3s;
-  display: block;
-
 }
 .header-banner img:hover {
   opacity: 0.9;
@@ -89,6 +84,7 @@ nav li a:hover {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  border-radius: 15px;
   text-decoration: none;
   color: white;
   background-color: rgba(255, 255, 255, 0.5)
