@@ -168,6 +168,17 @@ main h2 {
   opacity: 1.0;
 }
 
+/* ---------- individual design: plot aligned to the right ---------- */
+.plot-right {
+  width: 420px;
+  margin: 20px;
+  float: right;
+}
+.plot-right img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 1.0;
+}
 
 /* ---------- individual design: table ---------- */
 .table {
