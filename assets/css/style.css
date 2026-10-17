@@ -156,6 +156,19 @@ main h2 {
   opacity: 1.0;
 }
 
+/* ---------- individual design: wide picture aligned to the right ---------- */
+.right2pic {
+  width: 700px;
+  margin: 20px;
+  float: right;
+}
+.right2pic img {
+  width: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+  opacity: 1.0;
+}
+
 /* ---------- individual design: plot ---------- */
 .plot {
   width: 420px;
